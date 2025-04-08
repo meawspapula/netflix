@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+.head h3 {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px red;
+}
+nav{
+    padding-right: 7px ;
+}
+.nav nav ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.nav nav ul li {
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.nav nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.nav nav ul a li:hover {
+    color: red;
+}
+
+.nav2 {
+    padding-left: 200px;
+    display: flex;
+}
+
+.nav2 li {
+    margin-left:10px;
+}
+  .login-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 60px 68px 40px;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    color: #fff;
+    position: relative;
+    left: 350px;
+    top: 80px;
+  }
+  
+  .login-container h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .login-container .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+  .login-container .signup {
+    margin-top: 40px;
+    font-size: 14px;
+  }
+  
+  .login-container .signup a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-container .help {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #b3b3b3;
+  }
+  
+  .login-container .help a {
+    color: #b3b3b3;
+    text-decoration: none;
+  }
+  footer {
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    padding: 20px;
+    border-top: 1px solid #333;
+    margin-top: 300px;
+}
+
+  footer a {
+    color: #aaa;
+    margin: 0 8px;
+    text-decoration: none;
+  }
