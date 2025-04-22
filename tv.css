@@ -8,6 +8,9 @@
 body {
     background-color:black;
     color: white;
+    overflow-x:auto ;
+    overflow-y: auto;
+    align-items: center;
 }
 
 .head {
